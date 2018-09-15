@@ -1,0 +1,6 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>[:<port>]	<incl. subdomains>	<created>	<max-age>
+raw.githubusercontent.com	0	0	1515016501	31536000
+linode.com	0	0	1496759797	31536000
+acme-v01.api.letsencrypt.org	0	0	1496748460	604800

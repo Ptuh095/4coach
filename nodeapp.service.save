@@ -1,0 +1,12 @@
+[Service]
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=nodeapp
+User=4coachpro
+Environment=NODE_ENV=production PORT=3000
+WorkingDirectory=/var/www/4coachpro/data/www/server.4coach.pro
+ExecStart=/usr/bin/node sside.jssside.js
+
+[Install]
+WantedBy=multi-user.target
